@@ -10,6 +10,19 @@
 </head>
 <body>
     <header class="main-header">
+<<<<<<< HEAD
+        
+    <div class="navbar-right-elements">
+    <div class="brand-container">
+        <h1 class="class-name">X RPL 1</h1>
+        <p>Class Management Dashboard</p>
+    </div>
+        <div class="flag-container">
+            <img src="/img/indonesia.jpg" alt="Bendera Indonesia" class="indonesia-flag">
+        </div>
+    </div>
+</div>
+=======
             <div class="brand">
                 <h1>X RPL 1</h1>
                 <p>Class Management Dashboard</p>
@@ -26,8 +39,8 @@
               <button class="logbtn" type="submit">Logout</button>
             </form>
         @endauth
+>>>>>>> 7391c072775dc191147b6f3b5d2a806471ccc27a
     </header>
-
     <div class="content-wrapper">
         <nav id="sidebar">
           <ul>
@@ -47,6 +60,7 @@
                 </svg>
               </button>
             </li>
+            
         <li>
           <x-nav-link href="/" :active="request()->is('/')">
             <x-svg-link :active="request()->is('/')" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M520-600v-240h320v240H520ZM120-440v-400h320v400H120Zm400 320v-400h320v400H520Zm-400 0v-240h320v240H120Zm80-400h160v-240H200v240Zm400 320h160v-240H600v240Zm0-480h160v-80H600v80ZM200-200h160v-80H200v80Zm160-320Zm240-160Zm0 240ZM360-280Z"/></x-svg-link>

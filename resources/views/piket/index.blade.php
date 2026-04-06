@@ -29,7 +29,7 @@
                 <td style="padding: 15px; color: var(--primary-yellow); font-weight: bold;">Selasa</td>
                 <td style="padding: 15px;">
                     <ul>
-                        <li>Bintang</li>
+                        <li>Bintang Arya</li>
                         <li>Daffa Khoiri</li>
                         <li>Daffa Rifqi</li>
                         <li>Micko Putra Tanabi</li>

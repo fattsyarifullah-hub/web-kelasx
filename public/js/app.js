@@ -10,3 +10,4 @@ function toggleSidebar() {
         ul.previousElementSibling.classList.remove("rotate");
     });
 }
+
