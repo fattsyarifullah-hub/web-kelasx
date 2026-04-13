@@ -539,18 +539,10 @@ tr td li {
 }
 
 
-.indonesia-flag {
-    width: 30px; 
-    height: auto;
-    border-radius: 2px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
 .class-name {
     margin: 0;
     font-size: 1.5rem;
 }
-
 
 .main-header .container-fluid {
     position: relative; 
@@ -563,10 +555,11 @@ tr td li {
 
 
 .brand-container {
-    text-align: center;
+    margin-left: 20px;
+    text-align: left;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .class-name {
@@ -579,21 +572,6 @@ tr td li {
     font-size: 0.9rem;
 }
 
-
-.flag-container {
-    position: absolute; 
-    right: 20px;       
-    top: 9%;         
-    transform: translateY(-50%); 
-    z-index: 9999;
-}
-
-.indonesia-flag {
-    width: 35px;
-    height: auto;
-    border-radius: 4px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-}
 
 /* Logo biar tetep di kiri */
 .navbar-brand {
@@ -617,7 +595,7 @@ tr td li {
     cursor: pointer;
     transition: background-color 0.3s;
     text-decoration: none;
-    margin-left: 10px;
+    margin-right: 20px;
 }
 
 /* show siswa */

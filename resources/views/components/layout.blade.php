@@ -15,8 +15,12 @@
     <div class="brand-container">
         <h1 class="class-name">X RPL 1</h1>
         <p>Class Management Dashboard</p>
+<<<<<<< HEAD
         <br>
         
+=======
+    </div>
+>>>>>>> 9ad10b67a7663f21d0e08d77ffddfbc602a6886e
         @guest
             <a class="logbtn" href="/login">Login</a>
         @endguest
@@ -26,12 +30,16 @@
               <button class="logbtn" type="submit">Logout</button>
             </form>
         @endauth
+<<<<<<< HEAD
     </div>
         <div class="flag-container">
             <img src="/img/indonesia.jpg" alt="Bendera Indonesia" class="indonesia-flag">
         </div>
     </div>
 </div>
+=======
+
+>>>>>>> 9ad10b67a7663f21d0e08d77ffddfbc602a6886e
     </header>
     <div class="content-wrapper">
         <nav id="sidebar">
