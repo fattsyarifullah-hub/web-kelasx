@@ -667,3 +667,16 @@ tr td li {
     margin: 5px 0;
 }
 
+/* index pengumuman style */
+.h1-pengumuman {
+    color: var(--primary-yellow);
+    display: flex;
+    justify-content: center;
+}
+
+.create-pengumuman {
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5em;
+}
