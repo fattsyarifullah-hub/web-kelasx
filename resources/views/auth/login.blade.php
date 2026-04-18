@@ -14,24 +14,33 @@
     </style>
 </head>
 <body>
-    <div class="universal_container">
-        <div class="universal_card">
-            <div class="universal_header">
-                <h2>Login Admin</h2>
-                <p>Masukan kredensial Anda untuk melanjutkan</p>
+    <div class="universal_container login-minimal">
+        <div class="login-minimal-card">
+            <div class="card-header">
+                <h1>Admin Login</h1>
+                <div class="header-underline"></div>
             </div>
-            <form action="/login" method="POST" class="universal_form">
+            
+            <form action="/login" method="POST" class="minimal-form">
                 @csrf
                 <div class="form_group">
                     <label for="name">Username</label>
-                    <input type="text" id="name" name="name" required placeholder="Masukan Username Anda">   
+                    <input type="text" id="name" name="name" required placeholder="Enter your username">
+                    <span class="input-line"></span>
                 </div>
+                
                 <div class="form_group">
                     <label for="password">Password</label>
-                    <input type="password" id="password" name="password" required placeholder="Masukan Password Anda">   
+                    <input type="password" id="password" name="password" required placeholder="Enter your password">
+                    <span class="input-line"></span>
                 </div>
-                <button type="submit" class="btn_login">Masuk</button>
+                
+                <button type="submit" class="btn-minimal">Sign In</button>
             </form>
+            
+            <div class="card-footer">
+                <p>Contact admin for access</p>
+            </div>
         </div>
     </div>
 </body>
