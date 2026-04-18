@@ -25,6 +25,7 @@
             <a class="logbtn" href="/login">Login</a>
         @endguest
         @auth
+          <h2 class="welcome-message">Welcome, {{ auth()->user()->name }}! (Admin)</h2>
             <form action="/logout" method="POST">
               @csrf
               <button class="logbtn" type="submit">Logout</button>
