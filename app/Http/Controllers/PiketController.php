@@ -6,6 +6,7 @@ use GuzzleHttp\Promise\Create;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use App\Models\photo_piket;
+use App\Helpers\ScheduleHelper;
 use Carbon\Carbon;
 use Illuminate\Support\Facades\Storage;
 
@@ -14,7 +15,8 @@ class PiketController extends Controller
     public function index() 
     {   
         $photo = photo_piket::where('expired_at', '>', Carbon::now())->first();
-        return view('piket.index', compact('photo'));
+        $piketNames = ScheduleHelper::getPiketNames();
+        return view('piket.index', compact('photo', 'piketNames'));
     }
     
     public function create() {
