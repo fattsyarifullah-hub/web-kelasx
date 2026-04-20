@@ -2,6 +2,18 @@
 @auth
     <a href="{{ route('piket.create') }}">create sini</a>
 @endauth
+
+@if(!empty($piketNames))
+    <div class="card" style="padding: 20px; margin-bottom: 20px;">
+        <h3>Nama Petugas Piket</h3>
+        <ul style="padding-left: 20px; margin: 0;">
+            @foreach ($piketNames as $name)
+                <li>{{ $name }}</li>
+            @endforeach
+        </ul>
+    </div>
+@endif
+
 <div class="card" style="padding: 0; overflow: hidden;">
     <table style="width: 100%; border-collapse: collapse;">
         <thead style="background: #f1f5f9;">
